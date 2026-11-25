@@ -3,11 +3,11 @@ export default function Header() {
     <header className="header">
       <div className="container header-inner">
         <a href="/" className="logo">
-          Shop<span>Mini</span>
+          Hu<span>Shop</span>
         </a>
         <nav className="nav">
           <a href="/">Trang chủ</a>
-          <a href="/products">Sản phẩm</a>
+          <a href="/products">Điện thoại</a>
           <a href="/about">Giới thiệu</a>
         </nav>
         <a href="/cart" className="cart-link">
