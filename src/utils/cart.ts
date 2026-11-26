@@ -35,3 +35,4 @@ export function countItems(cart: CartItem[]): number {
 export function calcTotal(cart: CartItem[]): number {
   return cart.reduce((sum, item) => sum + item.product.price * item.quantity, 0);
 }
+
