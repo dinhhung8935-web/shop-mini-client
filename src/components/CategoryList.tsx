@@ -8,7 +8,7 @@ export default function CategoryList({ products }: Props) {
   const categories = Array.from(new Set(products.map((p) => p.category)));
 
   return (
-    <div className="container category-section">
+    <div className="category-section">
       <h3>Khám phá thương hiệu</h3>
       <div className="category-list">
         {categories.map((cat, index) => (

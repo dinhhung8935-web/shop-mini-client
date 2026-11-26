@@ -300,3 +300,8 @@ main {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   }
 }
+
+/* ---------- Lab 2 ---------- */
+main section + section {
+  margin-top: 48px;
+}
